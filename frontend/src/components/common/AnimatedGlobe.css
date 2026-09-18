@@ -1,0 +1,149 @@
+.globe-container {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #020617;
+  z-index: 0;
+}
+
+.space-background {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(1px 1px at 20px 30px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 80px 140px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 150px 220px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 290px 40px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 330px 280px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 460px 120px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 580px 320px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 700px 90px, #ffffff, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 850px 250px, #ffffff, rgba(0,0,0,0));
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
+  opacity: 0.6;
+  animation: twinkle 5s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  100% { opacity: 0.8; }
+}
+
+.globe-zoom-wrapper {
+  position: absolute;
+  /* Push it aggressively to the bottom left so it curves out */
+  bottom: -350px;
+  left: -200px;
+  animation: zoomOutEarth 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes zoomOutEarth {
+  0% { transform: scale(3) translate(15%, -15%); opacity: 0; }
+  30% { opacity: 1; }
+  100% { transform: scale(1) translate(0, 0); opacity: 1; }
+}
+
+.globe-wrapper {
+  position: relative;
+  width: 1400px;
+  height: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(15deg) rotateZ(-15deg);
+  transform-style: preserve-3d;
+}
+
+/* The Rotating Earth - Night Map */
+.earth {
+  width: 1100px;
+  height: 1100px;
+  border-radius: 50%;
+  background: url('https://unpkg.com/three-globe/example/img/earth-night.jpg') repeat-x;
+  background-size: auto 100%;
+  animation: rotateEarth 60s linear infinite;
+  
+  box-shadow: 
+    inset -80px -40px 120px rgba(0,0,0,0.9), 
+    inset 0 0 50px rgba(14, 165, 233, 0.3); /* Base inner atmosphere */
+}
+
+@keyframes rotateEarth {
+  0% { background-position: 0 0; }
+  100% { background-position: 2048px 0; }
+}
+
+/* Atmospheric Glow around the edge */
+.atmosphere {
+  position: absolute;
+  width: 1100px;
+  height: 1100px;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 
+    0 0 80px 15px rgba(14, 165, 233, 0.4), /* Outer blue glow */
+    inset 20px 20px 80px rgba(14, 165, 233, 0.4);
+}
+
+/* Sun Flare on the top right edge of the earth */
+.sun-flare {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 120px;
+  top: 150px;
+  background: radial-gradient(circle, rgba(255,240,200,1) 0%, rgba(251,146,60,0.8) 15%, rgba(14,165,233,0) 60%);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  filter: blur(8px);
+  z-index: 2;
+  transform: scaleY(0.7) rotate(25deg);
+  box-shadow: 0 0 100px 40px rgba(251, 146, 60, 0.3);
+}
+
+/* Sun ray burst */
+.sun-flare::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  width: 200%;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+  transform: translateY(-50%) rotate(-25deg);
+}
+
+/* Dynamic Satellites Orbit Containers */
+.satellite-orbit-container {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(14, 165, 233, 0.2);
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+.satellite-spinner {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation-name: orbitSpin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+}
+
+.satellite-dot {
+  position: absolute;
+  border-radius: 50%;
+  /* It keeps its orientation flat to the screen regardless of orbit spin if desired,
+     but realistically we just let it rotate with the container */
+}
+
+@keyframes orbitSpin {
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(360deg); }
+}
