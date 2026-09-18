@@ -1,0 +1,19 @@
+# ==========================
+# requirements.txt
+# ==========================
+
+pandas>=2.2.0
+numpy>=1.26.0
+
+requests>=2.32.0
+python-dotenv>=1.0.1
+
+langgraph>=0.6.5
+langchain>=0.3.27
+langchain-core>=0.3.74
+langchain-groq>=0.3.7
+
+pydantic>=2.10.0
+
+tqdm>=4.67.0
+geopy>=2.4.1

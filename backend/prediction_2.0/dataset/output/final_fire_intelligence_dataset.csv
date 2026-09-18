@@ -1,0 +1,554 @@
+latitude,longitude,bright_ti4,scan,track,acq_date,acq_time,satellite,confidence,version,bright_ti5,frp,daynight,temperature,humidity,wind_speed,wind_direction,wind_degree,fire_type,fire_intensity,heat_level,classification_confidence,predicted_spread_direction,spread_confidence,city,district,state,land_cover,nearby_refinery,nearby_pipeline,nearby_hospital,nearby_school,nearby_buildings,damage_score,damage_category,estimated_burn_area_km2,estimated_burnout_hours,risk_score,risk_level,critical_radius_km,high_radius_km,infrastructure_risk,affected_buildings,affected_population,evacuation_priority,casualty_risk,spread_reason,damage_reason,risk_reason,casualty_reason,ai_explanation
+21.46879,98.25249,339.16,0.45,0.63,16-09-2026,553,N21,nominal,2.0NRT,288.93,8.22,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,709.4,419.7,714.7,1582.5,139,53.7,Moderate Damage,0.61,2.4,68.5,High,3,5,Critical,42,1098,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 709.4 meters. Pipeline infrastructure detected within 419.7 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.61 km². Nearby buildings estimated: 139. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire Intelligence Briefing**  
+*Date: 17 Sep 2026*  
+*Location: 21.46879 N, 98.25249 E*  
+
+---
+
+### Fire Overview
+- **Hotspot** detected by NASA FIRMS (Brightness TI4 339 K, TI5 289 K).  
+- **Fire Radiative Power:** 8.22 MW – medium‑intensity, moderate heat.  
+- **Confidence:** 70 % (satellite detection).  
+- **Current weather:** 35 °C, 45 % RH, light N wind (8 km/h).  
+
+### Why the Fire is Expected to Spread
+- **Wind:** Light northerly flow pushes plume southward; agents cite “wind direction favors spread toward S.”  
+- **Terrain & Land‑cover:** Urban fabric provides abundant fuel (structures, utilities) and channels heat, enhancing lateral spread.  
+- **Prediction:** Southward spread with 45 % confidence; proximity to open corridors may raise actual probability.  
+
+### Damage Assessment
+- **Damage Score:** 53.7 / 100 → Moderate damage.  
+- **Estimated burn area:** 0.61 km²; expected burnout in ~2.4 h.  
+- **Critical assets:** Refinery (≈ 709 m) and pipeline (≈ 420 m) lie within the 3 km critical radius, raising potential for secondary incidents.  
+
+### Risk Assessment
+- **Overall risk:** High.  
+- **Critical radius:** 3 km encompassing dense urban structures and energy infrastructure.  
+- **Infrastructure risk:** Classified as *Critical* due to proximity of refinery/pipeline.  
+
+### Estimated Population Impact
+- **Buildings at risk:** 42 (including 139 nearby structures).  
+- **Population exposed:** ≈ 1,100 residents.  
+- **Evacuation priority:** High – immediate relocation advised.  
+
+### Recommended Immediate Actions
+1. **Activate emergency operations centre** and issue a **mandatory evacuation order** for a 3 km perimeter.  
+2. **Deploy ground firefighting crews** and **aerial suppression** (water/foam) targeting the fire’s southern front.  
+3. **Secure refinery and pipeline**: shut down non‑essential valves, monitor for leaks, and position emergency response teams on standby.  
+4. **Establish a public information hub** (SMS alerts, local radio) to disseminate evacuation routes and safety instructions.  
+5. **Conduct rapid damage reconnaissance** post‑containment to assess structural integrity of critical infrastructure.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+21.46782,98.24814,326.36,0.45,0.63,16-09-2026,553,N21,nominal,2.0NRT,289.01,8.03,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,709.2,419.7,714.7,1582.5,139,52.8,Moderate Damage,0.6,2.4,68.0,High,3,5,Critical,42,1080,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 709.2 meters. Pipeline infrastructure detected within 419.7 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.6 km². Nearby buildings estimated: 139. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Disaster Intelligence Brief – 17 Sep 2026**
+
+---
+
+### Fire Overview
+- **Location:** 21.46782 N, 98.24814 E (urban fringe)  
+- **Detection:** NASA FIRMS, 70 % confidence; Brightness TI4 = 326 K, TI5 = 289 K.  
+- **Fire Radiative Power:** 8.03 MW – classified as *Medium‑Intensity, Moderate‑Heat* fire.  
+- **Current Size:** ≈0.6 km²; projected burnout ≈2.4 h.
+
+### Why the Fire is Expected to Spread
+- **Wind:** 8 km/h from the north pushes embers southward; spread direction forecast = S (45 % confidence).  
+- **Fuel & Land Cover:** Urban fabric provides abundant combustible materials (structures, debris) that accelerate lateral spread.  
+
+### Damage Assessment
+- **Damage Score:** 52.8/100 → *Moderate Damage*.  
+- **Critical Radius:** 3 km, encompassing a refinery (≈709 m) and a high‑pressure pipeline (≈420 m).  
+- **Infrastructure at Risk:** Refinery operations, fuel pipelines, power substations, and road networks are within the impact zone, raising the potential for secondary incidents.
+
+### Risk Assessment
+- **Overall Risk Level:** **High**.  
+- **Key Threats:** Ignition of refinery storage, pipeline rupture, possible explosion, and disruption of urban utilities.  
+
+### Estimated Population Impact
+- **Buildings Affected:** 42; **Population:** ~1,080 residents.  
+- **Casualty Potential:** Elevated due to dense housing and proximity to the fire front. Evacuation priority: **High**.
+
+### Recommended Immediate Actions
+1. **Activate Incident Command:** Deploy rapid‑response fire crews and hazardous‑materials units to the refinery and pipeline perimeters.  
+2. **Evacuation:** Initiate mandatory evacuation of all structures within a 2 km radius; establish shelter points 5 km northward, upwind of smoke.  
+3. **Aerial Suppression:** Prioritize water/foam drops on the fire’s southern flank to counter wind‑driven spread.  
+4. **Utility Shutdown:** Pre‑emptively isolate gas lines and power feeds near the fire to prevent secondary ignitions.  
+5. **Public Communication:** Issue real‑time alerts via SMS and local media; advise residents to avoid travel on main arteries south of the blaze.  
+
+*Prepared by NTRO Sentinel – Disaster Intelligence Unit.*"
+21.46465,98.25303,344.14,0.45,0.63,16-09-2026,553,N21,nominal,2.0NRT,289.01,9.59,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,709.0,419.7,714.6,1582.5,139,54.3,Moderate Damage,0.68,2.5,68.9,High,3,5,Critical,47,1224,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 709.0 meters. Pipeline infrastructure detected within 419.7 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.68 km². Nearby buildings estimated: 139. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire Hotspot Intelligence Brief**  
+*Date/Time: 2026‑09‑17 03:00 UTC*  
+*Location: 21.46465 N, 98.25303 E*  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat (TI‑4 = 344 K, TI‑5 = 289 K).  
+- **FRP:** 9.6 MW; **Detection confidence:** 70 %.  
+- **Current size:** ≈0.68 km²; projected burnout ≈2.5 h.  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light north wind (8 km/h) will push the plume southward; spread confidence 45 %.  
+- **Terrain & Land‑cover:** Urban matrix offers abundant combustible structures and limited natural firebreaks, facilitating rapid lateral propagation.  
+
+### Damage Assessment  
+- **Damage score:** 54.3/100 → moderate damage.  
+- **Critical radius:** 3 km, encompassing a refinery (≈709 m) and a pipeline network (≈420 m).  
+- **Infrastructure at risk:** refinery storage tanks, oil‑pipeline junctions, power substations, and densely built‑up commercial zones.  
+
+### Risk Assessment  
+- **Overall risk:** High.  
+- **Key hazards:** Potential ignition of refinery hydrocarbons, pipeline rupture, secondary fires, and toxic plume exposure.  
+- **Compounding factor:** Urban land‑cover amplifies heat load and hampers fire‑line establishment.  
+
+### Estimated Population Impact  
+- **Buildings within critical zone:** 47 (including 139 nearby structures).  
+- **Population exposed:** ~1,224 residents.  
+- **Evacuation priority:** High – immediate relocation required.  
+
+### Recommended Immediate Actions  
+1. **Activate emergency operations centre** and issue a “Fire‑Danger – Immediate Evacuation” alert for a 3 km radius.  
+2. **Deploy ground fire‑suppression teams** with foam agents to protect the refinery and pipeline; prioritize fire‑breaks along main access roads.  
+3. **Air‑support:** Dispatch water‑bombing helicopters to the fire front and downwind urban blocks.  
+4. **Establish a safety perimeter** and relocate residents to pre‑designated shelters; coordinate with local health units for smoke‑inhalation monitoring.  
+5. **Monitor satellite & UAV feeds** every 15 min for hotspot migration; update spread forecasts hourly.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*"
+22.04143,99.62005,325.58,0.36,0.57,16-09-2026,553,N21,nominal,2.0NRT,284.44,1.13,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,795.8,421.7,720.4,1596.2,21,51.0,Moderate Damage,0.26,2.1,67.0,High,3,5,Critical,18,468,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 795.8 meters. Pipeline infrastructure detected within 421.7 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.26 km². Nearby buildings estimated: 21. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Disaster Intelligence Brief – Fire Hotspot**  
+*Latitude 22.04143 N, Longitude 99.62005 E – 2026‑09‑17*  
+
+---
+
+### Fire Overview  
+- **Detection:** NASA FIRMS, 70 % confidence; TI‑4 brightness 325 K, TI‑5 brightness 284 K.  
+- **Current Power:** 1.13 MW (Medium intensity, moderate heat).  
+- **Environment:** Ambient 35 °C, 45 % RH, light wind 8 km/h from the North.  
+- **Classification:** Unknown fire type; estimated burn area 0.26 km²; projected burnout in ~2.1 h.
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light northerly flow pushes embers southward; agents cite “wind direction favors spread toward S.”  
+- **Confidence:** 45 % (moderate) but urban fuel load (buildings, infrastructure) can accelerate propagation despite low wind speed.
+
+### Damage Assessment  
+- **Damage Score:** 51/100 → Moderate damage.  
+- **Key Threats:** Urban land cover amplifies exposure; proximity to a refinery (≈ 795 m) and a pipeline (≈ 422 m) raises potential for secondary incidents.  
+- **Critical Radius:** 3 km surrounds high‑value assets.
+
+### Risk Assessment  
+- **Overall Risk:** High.  
+- **Infrastructure:** Critical – refinery and pipeline at risk of fire‑induced rupture or explosion.  
+- **Secondary Hazards:** Possible toxic plume, fuel spills, and loss of power/communication lines.
+
+### Estimated Population Impact  
+- **Buildings Affected:** 18 (≈ 21 structures in vicinity).  
+- **People at Risk:** ~468 residents.  
+- **Evacuation Priority:** High – immediate relocation of all occupants within the 3 km critical radius.
+
+### Recommended Immediate Actions  
+1. **Activate Incident Command:** Deploy rapid‑response fire teams and hazardous‑materials units.  
+2. **Establish Perimeter:** Set up exclusion zone 3 km, enforce evacuation of all dwellings and workers at the refinery/pipeline.  
+3. **Aerial Suppression:** Request helicopter water drops to cool hotspots and protect infrastructure.  
+4. **Monitor Air Quality:** Deploy mobile sensors; issue public health advisories for smoke inhalation.  
+5. **Coordinate with Local Authorities:** Share real‑time GIS data, initiate shelter‑in‑place plans for displaced civilians.  
+
+*Prepared by NTRO Sentinel – Disaster Intelligence Analyst*  "
+22.68007,99.20621,328.33,0.37,0.58,16-09-2026,553,N21,nominal,2.0NRT,295.04,6.97,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,850.0,421.9,726.8,1592.1,21,52.6,Moderate Damage,0.55,2.3,67.9,High,3,5,Critical,21,990,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 850.0 meters. Pipeline infrastructure detected within 421.9 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.55 km². Nearby buildings estimated: 21. High-risk zone may affect nearby settlements.,"**Fire Overview**  
+- **Location:** 22.68007 N, 99.20621 E (urban fringe).  
+- **Detection:** NASA FIRMS hotspot, brightness 328 K (TI‑4), 295 K (TI‑5), FRP 6.97 MW, 70 % confidence.  
+- **Current Conditions:** 35 °C, 45 % RH, light northerly wind (8 km/h).  
+- **Classification:** Unknown fire, medium intensity, moderate heat.  
+- **Size & Timing:** Estimated 0.55 km² burned; projected burnout in ~2.3 h.
+
+**Why the Fire is Expected to Spread**  
+The prevailing north wind pushes the plume southward, aligning with the predicted spread direction (south) despite modest speed. Urban land cover provides abundant fuels (structures, vegetation gaps) that can accelerate lateral expansion once the fire breaches containment lines.
+
+**Damage Assessment**  
+- **Damage Score:** 52.6/100 → moderate damage.  
+- **Critical Factors:** Urban environment amplifies exposure; proximity to a refinery (≈850 m) and a pipeline (≈422 m) raises potential for secondary incidents.  
+- **Infrastructure at Risk:** 21 buildings within the critical 3 km radius, including possible fuel storage and utility lines.
+
+**Risk Assessment**  
+- **Overall Risk:** High.  
+- **Critical Radius:** 3 km encompasses dense residential zones and the refinery/pipeline complex.  
+- **Key Threats:** Fire‑induced explosion or rupture of nearby hydrocarbon infrastructure; rapid escalation due to urban fuel load.
+
+**Estimated Population Impact**  
+- **People Affected:** ~990 residents.  
+- **Evacuation Priority:** High – immediate relocation required for all households within the 3 km zone.
+
+**Recommended Immediate Actions**  
+1. **Activate emergency evacuation** for the 3 km radius; deploy shelters and transport assets.  
+2. **Deploy ground and aerial suppression** focusing on containment to the south, prioritizing protection of the refinery and pipeline.  
+3. **Establish a safety exclusion zone** of at least 1 km around the refinery/pipeline; monitor for flare‑ups or leaks.  
+4. **Coordinate with local authorities** for medical triage, utility shut‑downs, and public communication.  
+5. **Continuous monitoring** via satellite (FIRMS) and UAV reconnaissance to track fire behavior and wind shifts.  "
+23.43261,98.71444,330.73,0.39,0.59,16-09-2026,553,N21,nominal,2.0NRT,293.08,3.12,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,913.1,422.1,734.3,1587.1,22,51.8,Moderate Damage,0.36,2.2,67.5,High,3,5,Critical,22,648,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 913.1 meters. Pipeline infrastructure detected within 422.1 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.36 km². Nearby buildings estimated: 22. High-risk zone may affect nearby settlements.,"**Fire Overview**  
+- **Location:** 23.43261 N, 98.71444 E (urban fringe).  
+- **Detection:** NASA FIRMS hotspot, Brightness TI‑4 = 330.73 K, TI‑5 = 293.08 K, FRP = 3.12 MW, Confidence = 70%.  
+- **Current Conditions:** 35 °C, 45 % RH, light wind (8 km/h) from the north.  
+- **Classification:** Unknown fire, medium intensity, moderate heat.  
+- **Estimated size:** 0.36 km²; projected burnout in ~2.2 h.
+
+**Why the Fire is Expected to Spread**  
+- Light northerly wind pushes embers southward; 45 % confidence in southward spread.  
+- Urban land cover supplies abundant combustible material (structures, utilities).  
+- Proximity to open spaces and limited natural firebreaks enhances lateral propagation.
+
+**Damage Assessment**  
+- Damage score 51.8/100 → **moderate damage**.  
+- Urban environment amplifies exposure: 22 buildings within the critical radius, including a refinery (≈913 m) and pipelines (≈422 m).  
+- Potential for secondary incidents (fuel spills, explosions) raises the threat level.
+
+**Risk Assessment**  
+- **Risk Level:** High.  
+- **Critical radius:** 3 km, encompassing key infrastructure (refinery, pipelines).  
+- Infrastructure risk classified as **critical** due to possible cascade failures.
+
+**Estimated Population Impact**  
+- Approx. 648 residents across 22 structures lie within the at‑risk zone.  
+- Evacuation priority: **High**; rapid displacement required to avoid casualties.
+
+**Recommended Immediate Actions**  
+1. **Activate emergency response:** Deploy fire‑suppression units to establish a containment line south of the hotspot.  
+2. **Evacuate** all residents and workers within a 3 km radius; prioritize the refinery and pipeline staff.  
+3. **Secure critical infrastructure:** Shut down refinery feed lines, isolate pipelines, and position hazard‑mitigation teams.  
+4. **Aerial support:** Request helicopter water drops to slow spread while ground crews advance.  
+5. **Public alert:** Issue an urgent broadcast (SMS, radio, social media) with evacuation routes and shelter locations.  
+6. **Monitoring:** Maintain continuous FIRMS and meteorological updates; adjust tactics as wind direction or fire behavior changes.  "
+23.43081,98.71515,328.48,0.38,0.59,16-09-2026,553,N21,nominal,2.0NRT,292.0,4.49,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,913.0,422.1,734.3,1587.2,22,52.0,Moderate Damage,0.42,2.2,67.6,High,3,5,Critical,22,756,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 913.0 meters. Pipeline infrastructure detected within 422.1 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.42 km². Nearby buildings estimated: 22. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire Hotspot Intelligence Brief**  
+*Date/Time: 2026‑09‑17 (UTC) – Coordinates 23.43081 N, 98.71515 E*  
+
+---
+
+### Fire Overview
+- **Detection:** NASA FIRMS, brightness 328 K (TI‑4), FRP 4.49 MW, confidence 70 %.  
+- **Current Conditions:** 35 °C, 45 % RH, light northerly wind (8 km/h).  
+- **Classification:** Unknown fire, medium intensity, moderate heat.  
+- **Estimated footprint:** 0.42 km², projected burnout ≈ 2.2 h.
+
+### Why the Fire is Expected to Spread
+- **Wind:** Light northerly flow pushes embers southward; agents cite “wind direction favors spread toward S.”  
+- **Confidence:** 45 % (moderate) – spread may accelerate if wind picks up or terrain channels flow.  
+
+### Damage Assessment
+- **Damage Score:** 52 / 100 → moderate damage.  
+- **Urban land cover** intensifies exposure; 22 structures lie within the critical radius.  
+- **Critical radius:** 3 km encloses a refinery (≈ 913 m) and a high‑pressure pipeline (≈ 422 m), raising potential for secondary incidents.  
+
+### Risk Assessment
+- **Overall risk:** High.  
+- **Infrastructure at risk:** Refinery, oil/gas pipelines, power lines, and road network.  
+- **Secondary hazard potential:** Flashover to nearby fuel storage, toxic plume generation.  
+
+### Estimated Population Impact
+- **People in immediate danger:** ~756 residents.  
+- **Buildings affected:** 22 (mixed residential/commercial).  
+- **Evacuation priority:** High – immediate sheltering and relocation required.  
+
+### Recommended Immediate Actions
+1. **Activate emergency operations centre**; issue evacuation order for a 2 km perimeter.  
+2. **Deploy ground crews** with rapid‑attack suppression (water/foam) to contain the southern front.  
+3. **Aerial assets:** Dispatch water‑dropping helicopters; prioritize protection of refinery and pipeline.  
+4. **Establish exclusion zone** around the refinery/pipeline; monitor for flare‑ups and toxic releases.  
+5. **Public communication:** Broadcast evacuation routes, safe zones, and real‑time updates via local media and mobile alerts.  
+6. **Prepare medical triage** at the nearest health facility for potential burn and smoke‑inhalation cases.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+26.02673,101.72204,338.29,0.45,0.47,16-09-2026,555,N21,nominal,2.0NRT,293.55,3.9,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,447.5,427.7,760.3,1617.2,27,52.5,Moderate Damage,0.4,2.2,70.9,High,3,5,Critical,27,720,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 447.5 meters. Pipeline infrastructure detected within 427.7 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.4 km². Nearby buildings estimated: 27. High-risk zone may affect nearby settlements.,"**Fire Overview**  
+- **Location:** 26.02673 N, 101.72204 E (urban fringe).  
+- **Detection:** NASA FIRMS hotspot, Brightness TI4 338 K, TI5 293 K, FRP 3.9 MW, 70 % confidence.  
+- **Classification:** Unknown fire, medium intensity, moderate heat.  
+- **Current Weather:** 35 °C, 45 % RH, wind 8 km/h from the north.
+
+**Why the Fire is Expected to Spread**  
+The northerly wind pushes embers and convection toward the south, the predicted spread direction (45 % confidence). Urban land‑cover provides abundant fuels (structures, debris) and limited natural firebreaks, enhancing lateral growth.
+
+**Damage Assessment**  
+- **Damage Score:** 52.5/100 → Moderate damage.  
+- **Burn Area:** ~0.4 km², expected burnout in ~2.2 h.  
+- **Critical Assets:** A refinery (447 m) and a pipeline (428 m) lie within the 3 km critical radius, raising the potential for secondary incidents.  
+- **Urban setting** amplifies exposure of property and infrastructure.
+
+**Risk Assessment**  
+- **Overall Risk:** High.  
+- **Critical Radius:** 3 km surrounds the hotspot.  
+- **Infrastructure Risk:** Critical due to proximity of refinery and pipeline.  
+- **Environmental Risk:** Possible contamination from fuel storage if the fire breaches containment.
+
+**Estimated Population Impact**  
+- **Buildings Affected:** 27.  
+- **People at Risk:** ≈720 residents.  
+- **Evacuation Priority:** High – immediate relocation required.
+
+**Recommended Immediate Actions**  
+1. Issue a mandatory evacuation order for all structures within a 3 km radius; establish temporary shelters.  
+2. Deploy ground crews and aerial assets (water/foam drops) to protect the refinery and pipeline; set up firebreaks where feasible.  
+3. Coordinate with local fire stations, police, and disaster management agencies for rapid response and traffic control.  
+4. Initiate continuous satellite and UAV monitoring to track fire spread and hotspot intensity.  
+5. Prepare environmental containment kits for potential fuel leaks; alert nearby hospitals and emergency services.  
+
+*Prepared by NTRO Sentinel – Disaster Intelligence Unit.*"
+26.56291,101.67844,328.3,0.44,0.46,16-09-2026,555,N21,low,2.0NRT,301.09,7.81,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,500.9,428.2,765.6,1616.8,28,52.8,Moderate Damage,0.59,2.4,68.0,High,3,5,Critical,28,1062,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 500.9 meters. Pipeline infrastructure detected within 428.2 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.59 km². Nearby buildings estimated: 28. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire‑Hotspot Intelligence Brief**  
+*Location:* 26.56291 N, 101.67844 E – urban fringe, ~0.6 km² estimated burn area  
+
+---
+
+### Fire Overview  
+- **Detection:** NASA FIRMS, 40 % confidence; Brightness 328 K (TI‑4), 301 K (TI‑5)  
+- **Fire Radiative Power:** 7.81 MW – medium‑intensity, moderate heat  
+- **Current Weather:** 35 °C, 45 % RH, light N wind (8 km/h)  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light northerly flow pushes the plume southward; agents estimate 45 % confidence in a southerly spread.  
+- **Fuel & Cover:** Urban land‑cover provides abundant combustible structures and debris, enhancing lateral propagation once the fire reaches the built‑up zone.  
+
+### Damage Assessment  
+- **Damage Score:** 52.8/100 → moderate damage classification  
+- **Critical Assets:** Refinery (≈ 500 m) and oil‑pipeline network (≈ 430 m) lie within the 3 km critical radius, raising potential for secondary incidents.  
+- **Built‑up Exposure:** 28 structures lie within the projected burn perimeter.  
+
+### Risk Assessment  
+- **Overall Risk:** High (critical radius 3 km) due to proximity of energy infrastructure and dense urban fabric.  
+- **Secondary Hazard:** Possible fuel‑oil release or explosion if containment fails.  
+
+### Estimated Population Impact  
+- **People at risk:** ~1,060 residents across the 28 affected buildings.  
+- **Evacuation priority:** High – immediate relocation required to avoid smoke inhalation and structural collapse.  
+
+### Recommended Immediate Actions  
+1. **Deploy rapid‑response fire crews** with aerial suppression assets to establish a containment line south of the hotspot.  
+2. **Activate pre‑planned evacuation** for all households within a 2 km buffer; set up temporary shelters 5 km north.  
+3. **Secure refinery and pipeline** – initiate shutdown protocols, isolate valves, and position emergency response teams on standby.  
+4. **Establish a joint command centre** (civil‑military) to coordinate fire‑fighting, medical, and infrastructure protection.  
+5. **Monitor satellite and ground‑based sensors** hourly for fire growth, wind shifts, and potential secondary releases.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+26.5662,101.6731,326.28,0.44,0.46,16-09-2026,555,N21,low,2.0NRT,301.03,6.1,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,501.1,428.2,765.7,1616.7,28,52.3,Moderate Damage,0.51,2.3,67.8,High,3,5,Critical,28,918,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 501.1 meters. Pipeline infrastructure detected within 428.2 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.51 km². Nearby buildings estimated: 28. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire‑Hotspot Intelligence Brief**  
+*Date: 17 Sep 2026*  
+*Location: 26.5662 N, 101.6731 E*  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat.  
+- **Satellite Signature:** Brightness 326 K (TI‑4), 301 K (TI‑5); FRP ≈ 6 MW.  
+- **Detection Confidence:** 40 % (requires ground verification).  
+- **Current Weather:** 35 °C, 45 % RH, light northerly wind (8 km/h).  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light northerly flow pushes embers southward; agents cite “Wind direction favors spread toward S.”  
+- **Land Cover:** Urban fabric provides abundant fuel (structures, vehicles, utilities).  
+- **Confidence:** 45 % for southern spread – moderate certainty, but the directional bias is clear.  
+
+### Damage Assessment  
+- **Damage Score:** 52.3/100 → Moderate damage.  
+- **Estimated Burn Area:** 0.51 km²; projected burnout in ~2.3 h.  
+- **Key Threats:** Proximity to refinery (≈ 0.5 km) and pipeline (≈ 0.43 km) raises explosion/contamination risk.  
+
+### Risk Assessment  
+- **Overall Risk:** High.  
+- **Critical Radius:** 3 km around hotspot.  
+- **Infrastructure at Risk:** Refinery, oil/gas pipelines, urban utilities – classified as “Critical.”  
+
+### Estimated Population Impact  
+- **Buildings Affected:** 28 structures.  
+- **Population Exposure:** ≈ 918 persons.  
+- **Evacuation Priority:** High.  
+
+### Recommended Immediate Actions  
+1. **Deploy rapid‑response ground teams** for fire suppression and hot‑spot verification.  
+2. **Initiate a 3 km evacuation zone**; prioritize the 28 identified buildings.  
+3. **Secure refinery and pipeline** – shut down operations, establish exclusion perimeters, and standby fire‑water resources.  
+4. **Air‑borne reconnaissance** (UAV/heli) to monitor spread direction and heat flux.  
+5. **Issue public alerts** via local media and mobile warning systems; coordinate with municipal emergency services.  
+6. **Prepare medical triage** at nearest health‑care facility for potential casualties.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+38.95077,100.48489,330.07,0.46,0.39,16-09-2026,557,N21,low,2.0NRT,303.72,3.65,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,914.0,439.4,889.5,1604.8,39,51.9,Moderate Damage,0.38,2.2,67.5,High,3,5,Critical,26,684,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 914.0 meters. Pipeline infrastructure detected within 439.4 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.38 km². Nearby buildings estimated: 39. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Disaster Intelligence Brief – Fire Hotspot**  
+*Location:* 38.95077 N, 100.48489 E | *Detection Time:* [latest FIRMS ingest]  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat (Brightness TI4 330 K, TI5 303 K).  
+- **Radiative Power:** 3.65 MW; **Detection confidence:** 40 %.  
+- **Current conditions:** Ambient temperature 35 °C, relative humidity 45 %, light wind from the north (8 km/h).  
+
+### Why the Fire is Expected to Spread  
+- **Wind vector:** Northern wind pushes the plume southward; spread direction predicted S with 45 % confidence.  
+- **Fuel & cover:** Urban land‑use provides abundant combustible structures and surface fuels, amplifying lateral spread once the fire breaches building envelopes.  
+
+### Damage Assessment  
+- **Damage score:** 51.9 / 100 → moderate damage.  
+- **Estimated burn area:** 0.38 km²; projected burnout in ~2.2 h.  
+- **Key assets at risk:** A refinery (≈ 0.9 km) and a major pipeline (≈ 0.44 km) lie within the critical 3 km radius, raising the potential for secondary incidents.  
+
+### Risk Assessment  
+- **Overall risk:** High.  
+- **Critical radius:** 3 km (urban density, infrastructure proximity).  
+- **Infrastructure risk:** Critical – possible fire‑induced shutdown of refinery and pipeline rupture.  
+
+### Estimated Population Impact  
+- **Buildings threatened:** 26 (out of 39 identified).  
+- **Population exposed:** ~684 persons.  
+- **Evacuation priority:** High – immediate sheltering and relocation required.  
+
+### Recommended Immediate Actions  
+1. **Activate fire‑suppression assets** (ground crews, aerial retardant) and position them south of the hotspot.  
+2. **Establish a 3 km exclusion zone**; enforce roadblocks and issue evacuation orders for all structures within the zone.  
+3. **Notify refinery and pipeline operators**; initiate shutdown protocols and standby emergency response teams.  
+4. **Deploy rapid‑assessment drones** to refine burn perimeter and identify hot‑spot extensions.  
+5. **Coordinate with local civil‑defence** to set up temporary shelters, medical triage, and public‑information broadcasts.  
+
+*Prepared by:* NTRO Sentinel – Disaster Intelligence Unit  
+*Time‑stamp:* 2026‑09‑17 04:12 UTC.  "
+7.57171,80.99763,331.16,0.47,0.48,16-09-2026,731,N21,nominal,2.0NRT,283.89,4.99,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,813.3,388.6,575.7,1410.0,108,52.3,Moderate Damage,0.45,2.2,67.8,High,3,5,Critical,31,810,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 813.3 meters. Pipeline infrastructure detected within 388.6 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.45 km². Nearby buildings estimated: 108. High-risk zone may affect nearby settlements.,"**Intelligence Report – NTRO Sentinel**  
+*Hotspot: 7.57171 N, 80.99763 E – 17 Sep 2026*  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat.  
+- **Satellite Signature:** Brightness TI‑4 = 331 K, TI‑5 = 284 K; FRP ≈ 5 MW.  
+- **Detection Confidence:** 70 %.  
+- **Current Conditions:** 35 °C, 45 % RH, light northerly wind (8 km h⁻¹).  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light northerly flow pushes the flame front southward; agents rate spread confidence 45 % but direction is clear.  
+- **Fuel & Cover:** Urban fabric provides abundant combustible structures and debris, enhancing lateral spread once the fire breaches the perimeter.  
+
+### Damage Assessment  
+- **Damage Score:** 52.3 / 100 → moderate damage.  
+- **Estimated Burn Area:** 0.45 km²; projected burnout in ~2.2 h.  
+- **Key Assets at Risk:** A refinery (≈ 0.8 km) and a high‑pressure pipeline (≈ 0.4 km) lie within the 3 km critical radius, raising potential for secondary incidents.  
+
+### Risk Assessment  
+- **Overall Risk Level:** High.  
+- **Critical Radius:** 3 km (urban zone).  
+- **Infrastructure Vulnerability:** Critical – refinery and pipeline exposure could trigger cascading hazards.  
+
+### Estimated Population Impact  
+- **Buildings Affected:** 31 structures.  
+- **Population at Risk:** ~810 persons.  
+- **Evacuation Priority:** High – immediate relocation required.  
+
+### Recommended Immediate Actions  
+1. **Activate Emergency Operations Center** and issue a **Level‑3 evacuation order** for the 3 km zone.  
+2. **Deploy ground suppression teams** with high‑capacity water/foam assets to contain the fire’s southern front.  
+3. **Secure refinery and pipeline** – initiate shutdown protocols, dispatch hazardous‑materials units, and establish exclusion zones.  
+4. **Aerial reconnaissance** (IR‑capable UAVs) to monitor fire growth and hotspot migration every 15 min.  
+5. **Public alert** via SMS and local broadcast; set up temporary shelters 5 km north of the fire line.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+8.27539,80.76751,326.43,0.48,0.48,16-09-2026,731,N21,nominal,2.0NRT,292.6,1.26,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,868.4,389.0,582.8,1407.7,109,51.1,Moderate Damage,0.26,2.1,67.1,High,3,5,Critical,18,468,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 868.4 meters. Pipeline infrastructure detected within 389.0 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.26 km². Nearby buildings estimated: 109. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire Hotspot Intelligence Brief**  
+*Location:* 8.27539 N, 80.76751 E  
+*Timestamp:* [Insert acquisition time]  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat.  
+- **Satellite Metrics:** Brightness 326 K (TI‑4), 293 K (TI‑5); FRP = 1.26 MW; detection confidence 70%.  
+- **Current Conditions:** Ambient temperature 35 °C, relative humidity 45 %, light northerly breeze 8 km/h.  
+
+### Why the Fire is Expected to Spread  
+- **Wind Influence:** Northerly flow pushes embers southward; model predicts southern spread with 45 % confidence.  
+- **Fuel & Topography:** Urban land‑cover provides abundant combustible structures and limited natural firebreaks, facilitating lateral propagation.  
+
+### Damage Assessment  
+- **Damage Score:** 51.1 / 100 → Moderate damage.  
+- **Estimated Burn Area:** 0.26 km²; projected burnout in ~2.1 h.  
+- **Key Assets at Risk:** Urban infrastructure; nearby refinery (≈ 868 m) and oil‑pipeline network (≈ 389 m) raise potential for secondary incidents.  
+
+### Risk Assessment  
+- **Overall Risk Level:** High.  
+- **Critical Radius:** 3 km contains the fire’s thermal and radiative influence.  
+- **Infrastructure Threat:** Refinery and pipeline proximity elevate explosion/contamination hazards; immediate containment essential.  
+
+### Estimated Population Impact  
+- **Buildings Affected:** 18 structures.  
+- **Population Exposure:** ~468 residents; evacuation priority classified as **High** due to dense urban setting and proximity to hazardous facilities.  
+
+### Recommended Immediate Actions  
+1. **Deploy rapid‑response ground crews** with water/foam assets to establish a containment line south of the hotspot.  
+2. **Activate aerial suppression** (helicopter water drops) to reduce FRP and protect the refinery perimeter.  
+3. **Issue mandatory evacuation orders** for a 3 km radius; set up temporary shelters and medical triage points.  
+4. **Secure refinery and pipeline** – shut down non‑essential operations, monitor for leaks, and station emergency response teams onsite.  
+5. **Maintain continuous FIRMS and meteorological monitoring**; update spread forecasts every 30 min.  
+
+*Prepared by:* NTRO Sentinel – Disaster Intelligence Unit."
+23.82722,84.57161,330.12,0.39,0.36,16-09-2026,735,N21,low,2.0NRT,302.33,4.93,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,615.1,408.4,738.3,1445.7,128,52.2,Moderate Damage,0.45,2.2,67.7,High,3,5,Critical,31,810,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 615.1 meters. Pipeline infrastructure detected within 408.4 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.45 km². Nearby buildings estimated: 128. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Disaster Intelligence Brief**  
+*Fire Hotspot – 23.82722 N, 84.57161 E*  
+*Report Date: 17 Sep 2026*  
+
+---
+
+### Fire Overview  
+- **Detection:** NASA FIRMS, moderate confidence (40%).  
+- **Thermal Signature:** TI4 = 330 K, TI5 = 302 K; FRP ≈ 4.9 MW.  
+- **Current Classification:** Unknown fire, medium intensity, moderate heat.  
+- **Environment:** 35 °C, 45 % RH, light northerly wind (8 km/h).  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light northerly flow pushes embers and convective plume southward.  
+- **Confidence:** 45 % (model) – direction S, consistent with wind vector.  
+- **Fuel:** Urban fabric provides abundant combustible material (structures, debris).  
+
+### Damage Assessment  
+- **Damage Score:** 52.2 / 100 → moderate damage.  
+- **Estimated Burn Area:** 0.45 km²; projected burnout in ~2.2 h.  
+- **Key Threats:** Proximity to refinery (≈ 615 m) and oil pipeline (≈ 408 m) raises potential for secondary explosions or hazardous releases.  
+
+### Risk Assessment  
+- **Overall Risk:** High.  
+- **Critical Radius:** 3 km (within which infrastructure loss is likely).  
+- **Infrastructure at Risk:** Refinery, pipeline, multiple urban utilities.  
+
+### Estimated Population Impact  
+- **Buildings Affected:** 31 structures.  
+- **Population Exposure:** ~810 persons.  
+- **Evacuation Priority:** High – immediate sheltering and relocation required.  
+
+### Recommended Immediate Actions  
+1. **Activate Incident Command:** Deploy rapid‑response fire crews and hazardous‑materials units to secure refinery and pipeline perimeters.  
+2. **Evacuation:** Issue mandatory evacuation orders for a 3 km radius; establish temporary shelters outside the critical zone.  
+3. **Aerial Suppression:** Utilize water/foam retardant drops targeting the fire front and potential spot‑fires to the south.  
+4. **Air Quality & Public Warning:** Broadcast smoke advisories; monitor for toxic emissions.  
+5. **Ground Surveillance:** Deploy UAVs for real‑time hotspot tracking and to verify containment progress.  
+
+*Prepared by: NTRO Sentinel – Disaster Intelligence Unit*  "
+8.63268,80.5003,330.1,0.49,0.49,16-09-2026,731,N21,nominal,2.0NRT,287.8,6.49,D,35,45,8,N,0,Unknown Fire,Medium,Moderate,50.0,S,45,Unknown City,Unknown District,Unknown State,Urban,894.9,389.1,586.3,1405.0,109,52.6,Moderate Damage,0.52,2.3,67.9,High,3,5,Critical,36,936,High Priority,Medium,Wind direction favors spread toward S.,"Land cover is Urban, increasing potential damage exposure.",Nearby refinery detected within 894.9 meters. Pipeline infrastructure detected within 389.1 meters. Land cover is classified as Urban.,Land cover is Urban. Estimated burn area is 0.52 km². Nearby buildings estimated: 109. High-risk zone may affect nearby settlements.,"**NTRO Sentinel – Fire Hotspot Intelligence Brief**  
+*Location:* 8.63268 N, 80.5003 E (Urban fringe)  
+*Detection:* NASA FIRMS, 70 % confidence; FRP = 6.49 MW; TI‑4 = 330 K, TI‑5 = 288 K  
+
+---
+
+### Fire Overview  
+- **Type / Intensity:** Unknown fire, medium intensity, moderate heat.  
+- **Current size:** ≈0.52 km²; projected burnout in ~2.3 h if unchecked.  
+- **Environmental conditions:** 35 °C, 45 % RH, light northerly wind (8 km/h).  
+
+### Why the Fire is Expected to Spread  
+- **Wind:** Light N‑flow pushes the plume southward; spread direction forecast S (45 % confidence).  
+- **Fuel & Land‑cover:** Urban fabric provides abundant combustible structures and debris, facilitating rapid lateral propagation.  
+
+### Damage Assessment  
+- **Damage Score:** 52.6/100 → Moderate damage.  
+- **Critical assets:** Refinery (≈0.9 km), oil‑pipeline network (≈0.4 km). Their proximity raises the likelihood of secondary incidents and escalation.  
+- **Infrastructure risk:** Classified as *Critical* within a 3 km radius.  
+
+### Risk Assessment  
+- **Overall risk:** High.  
+- **Critical radius:** 3 km encloses dense residential zones, commercial facilities, and the aforementioned energy infrastructure.  
+- **Potential secondary hazards:** Fuel spills, explosions, smoke inhalation zones.  
+
+### Estimated Population Impact  
+- **Buildings affected:** 36 (≈109 structures within burn envelope).  
+- **Population at risk:** ~936 persons.  
+- **Evacuation priority:** High – immediate relocation required.  
+
+### Recommended Immediate Actions  
+1. **Deploy rapid‑response ground crews** with fire‑suppression assets to establish containment lines south of the hotspot.  
+2. **Aerial water/foam drops** targeting the core and approach vectors toward the refinery and pipeline.  
+3. **Issue evacuation orders** for all residents within a 3 km radius; set up temporary shelters 5 km north.  
+4. **Secure energy infrastructure:** standby shutdown of refinery units, isolate pipeline sections, and position emergency response teams.  
+5. **Activate air‑quality monitoring** and public health advisories for smoke exposure.  
+6. **Coordinate with local authorities** for road closures, traffic rerouting, and real‑time situational updates.  "
