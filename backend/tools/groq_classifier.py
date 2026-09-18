@@ -11,7 +11,7 @@ from config import config
 
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
-    api_key="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",
+    api_key="GROQ_API_KEY",
     temperature=0.1
 )
 
