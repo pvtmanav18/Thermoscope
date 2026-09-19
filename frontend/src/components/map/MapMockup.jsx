@@ -77,7 +77,7 @@ import "leaflet/dist/leaflet.css";
 import { getFireInsights } from "../../services/fireApi";
 
 // ================= Backend API =================
-const API_URL = "http://127.0.0.1:8000/fires";
+const API_URL = "https://thermoscope-qaq0.onrender.com/fires";
 
 // ================= Fire Icons ==================
 const createFireIcon = (emoji, color, intensity = "Moderate", windDegree = 0) => {
