@@ -5,7 +5,7 @@
 // classified fire data.
 // ==========================================
 
-const API_BASE = "http://https://thermoscope-qaq0.onrender.com";
+const API_BASE = "https://thermoscope-qaq0.onrender.com";
 
 /**
  * Fetch classified fire locations from the backend.

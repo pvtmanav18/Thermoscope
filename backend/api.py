@@ -44,6 +44,8 @@ app.add_middleware(
         "http://127.0.0.1:3000",
         "https://thermoscope-qaq0.onrender.com",
         "https://thermoscope.vercel.app",
+        
+
     ],
     allow_credentials=True,
     allow_methods=["*"],
